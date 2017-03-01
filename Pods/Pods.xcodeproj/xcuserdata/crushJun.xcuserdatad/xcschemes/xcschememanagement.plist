@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>CTMediator.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-TRZXPersonalProfile.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-TRZXPersonalProfileTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-TRZXPersonalProfileUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>80C35679EF53D4086177085DB225C68D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>87EEE60ABA17F01EF8943A037BB7FE09</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C56AC90C82EB61D0068A20D7B8A64831</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E860DBFDF4A7872F6049CBAEAA721AD9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

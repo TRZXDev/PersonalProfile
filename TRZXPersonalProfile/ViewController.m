@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-#import "TRZXPersonalProfileViewController.h"
+#import "CTMediator+PersonalProfile.h"
+
 
 @interface ViewController ()
 
@@ -21,7 +22,7 @@
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-    TRZXPersonalProfileViewController *vc = [[TRZXPersonalProfileViewController alloc]init];
+    UIViewController *vc = [[CTMediator sharedInstance]PersonalProfile_TRZXPersonalProfileViewController:@{@"title":@"个人简介"}];
     [self.navigationController pushViewController:vc animated:YES];
 }
 

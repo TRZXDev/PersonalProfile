@@ -26,8 +26,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = _title1Str;
-
+    self.automaticallyAdjustsScrollViewInsets = NO;
+    self.title = _titleStr;
     [self.view addSubview:self.tableView];
     [self.tableView reloadData];
 }
@@ -46,13 +46,13 @@
         if ([_PersonalMode.userType isEqualToString:@"TradingCenter"]||[_PersonalMode.userType isEqualToString:@"Gov"]) {//交易中心，政府
             return 0;
         }else{
-            return 1+ _gongzuoArr.count;
+            return 1+ _workArray.count;
         }
     }else if (section == 2){
         if ([_PersonalMode.userType isEqualToString:@"TradingCenter"]||[_PersonalMode.userType isEqualToString:@"Gov"]) {//交易中心，政府
             return 0;
         }else{
-            return 1+_jiaoyuArr.count;
+            return 1+_eduArray.count;
         }
     }else{
         return 1;
@@ -106,17 +106,17 @@
         if (indexPath.row == 0){
             TRZXPersonalExperCell *cell = [tableView dequeueReusableCellWithIdentifier:@"TRZXPersonalExperCell"];
             if (!cell) {
-                cell = [[[NSBundle mainBundle] loadNibNamed:@"StudentJingLiBTCell" owner:self options:nil] lastObject];
+                cell = [[[NSBundle mainBundle] loadNibNamed:@"TRZXPersonalExperCell" owner:self options:nil] lastObject];
             }
             cell.jingliLabel.text = @"工作经历";
-            cell.jingliImage.image = [UIImage imageNamed:@"工作经历"];
+            cell.jingliImage.image = [UIImage imageNamed:@"personalWork"];
             cell.selectionStyle = UITableViewCellSelectionStyleNone;
             cell.backgroundColor = PersonalProfilrColor;
             tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
             
             return cell;
         }else{
-            TRZXProfileUserModel *mode = [_gongzuoArr objectAtIndex:indexPath.row-1];
+            TRZXProfileUserModel *mode = [_workArray objectAtIndex:indexPath.row-1];
             TRZXPersonalWorkCell *cell = [tableView dequeueReusableCellWithIdentifier:@"TRZXPersonalWorkCell"];
             if (!cell) {
                 cell = [[[NSBundle mainBundle] loadNibNamed:@"TRZXPersonalWorkCell" owner:self options:nil] lastObject];
@@ -141,12 +141,12 @@
                 cell = [[[NSBundle mainBundle] loadNibNamed:@"TRZXPersonalExperCell" owner:self options:nil] lastObject];
             }
             cell.selectionStyle = UITableViewCellSelectionStyleNone;
-            cell.jingliImage.image = [UIImage imageNamed:@"教育经历"];
+            cell.jingliImage.image = [UIImage imageNamed:@"personalEdu"];
             cell.jingliLabel.text = @"教育经历";
             tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
             return cell;
         }else{
-            TRZXProfileUserModel *mode = [_jiaoyuArr objectAtIndex:indexPath.row-1];
+            TRZXProfileUserModel *mode = [_eduArray objectAtIndex:indexPath.row-1];
             TRZXPersonalWorkCell *cell = [tableView dequeueReusableCellWithIdentifier:@"TRZXPersonalWorkCell"];
             if (!cell) {
                 cell = [[[NSBundle mainBundle] loadNibNamed:@"TRZXPersonalWorkCell" owner:self options:nil] lastObject];

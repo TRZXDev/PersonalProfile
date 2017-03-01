@@ -23,6 +23,10 @@
 		76BFDF581E66BC9E0025CDD1 /* TRZXPersonalExperCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76BFDF511E66BC9E0025CDD1 /* TRZXPersonalExperCell.xib */; };
 		76BFDF591E66BC9E0025CDD1 /* TRZXPersonalWorkCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BFDF531E66BC9E0025CDD1 /* TRZXPersonalWorkCell.m */; };
 		76BFDF5A1E66BC9E0025CDD1 /* TRZXPersonalWorkCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76BFDF541E66BC9E0025CDD1 /* TRZXPersonalWorkCell.xib */; };
+		76BFDF5F1E66C2A90025CDD1 /* personalUser.png in Resources */ = {isa = PBXBuildFile; fileRef = 76BFDF5B1E66C2A90025CDD1 /* personalUser.png */; };
+		76BFDF601E66C2A90025CDD1 /* personalWork.png in Resources */ = {isa = PBXBuildFile; fileRef = 76BFDF5C1E66C2A90025CDD1 /* personalWork.png */; };
+		76BFDF611E66C2A90025CDD1 /* redColor.png in Resources */ = {isa = PBXBuildFile; fileRef = 76BFDF5D1E66C2A90025CDD1 /* redColor.png */; };
+		76BFDF621E66C2A90025CDD1 /* personalEdu.png in Resources */ = {isa = PBXBuildFile; fileRef = 76BFDF5E1E66C2A90025CDD1 /* personalEdu.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +76,10 @@
 		76BFDF521E66BC9E0025CDD1 /* TRZXPersonalWorkCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXPersonalWorkCell.h; sourceTree = "<group>"; };
 		76BFDF531E66BC9E0025CDD1 /* TRZXPersonalWorkCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXPersonalWorkCell.m; sourceTree = "<group>"; };
 		76BFDF541E66BC9E0025CDD1 /* TRZXPersonalWorkCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRZXPersonalWorkCell.xib; sourceTree = "<group>"; };
+		76BFDF5B1E66C2A90025CDD1 /* personalUser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = personalUser.png; sourceTree = "<group>"; };
+		76BFDF5C1E66C2A90025CDD1 /* personalWork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = personalWork.png; sourceTree = "<group>"; };
+		76BFDF5D1E66C2A90025CDD1 /* redColor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redColor.png; sourceTree = "<group>"; };
+		76BFDF5E1E66C2A90025CDD1 /* personalEdu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = personalEdu.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +173,10 @@
 		76BFDF451E66B99B0025CDD1 /* TRZXPersonalProfile */ = {
 			isa = PBXGroup;
 			children = (
+				76BFDF5B1E66C2A90025CDD1 /* personalUser.png */,
+				76BFDF5C1E66C2A90025CDD1 /* personalWork.png */,
+				76BFDF5D1E66C2A90025CDD1 /* redColor.png */,
+				76BFDF5E1E66C2A90025CDD1 /* personalEdu.png */,
 				76BFDF461E66B9AF0025CDD1 /* TRZXPersonalProfileViewController.h */,
 				76BFDF471E66B9AF0025CDD1 /* TRZXPersonalProfileViewController.m */,
 				76BFDF491E66BB510025CDD1 /* TRZXProfileUserModel.h */,
@@ -289,11 +301,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				76BFDF561E66BC9E0025CDD1 /* TRZXPersonalProfileCell.xib in Resources */,
+				76BFDF601E66C2A90025CDD1 /* personalWork.png in Resources */,
 				76BFDF221E66B9350025CDD1 /* LaunchScreen.storyboard in Resources */,
 				76BFDF581E66BC9E0025CDD1 /* TRZXPersonalExperCell.xib in Resources */,
 				76BFDF1F1E66B9350025CDD1 /* Assets.xcassets in Resources */,
 				76BFDF1D1E66B9350025CDD1 /* Main.storyboard in Resources */,
+				76BFDF611E66C2A90025CDD1 /* redColor.png in Resources */,
 				76BFDF5A1E66BC9E0025CDD1 /* TRZXPersonalWorkCell.xib in Resources */,
+				76BFDF5F1E66C2A90025CDD1 /* personalUser.png in Resources */,
+				76BFDF621E66C2A90025CDD1 /* personalEdu.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

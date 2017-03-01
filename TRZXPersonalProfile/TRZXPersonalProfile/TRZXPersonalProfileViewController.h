@@ -11,15 +11,15 @@
 
 @interface TRZXPersonalProfileViewController : UIViewController
 
-@property (nonatomic,copy)NSString *title1Str;
-@property (nonatomic,copy)NSString *mainTitleStr;
-@property (strong, nonatomic)NSString *sanjiUrl;
-@property (strong, nonatomic)NSString *MID;
-
-@property (strong, nonatomic)NSString * panduanStr;
+//标题
+@property (copy,   nonatomic) NSString *titleStr;
+//用户模型
 @property (strong, nonatomic) TRZXProfileUserModel *PersonalMode;
-@property (strong, nonatomic) NSArray *jiaoyuArr;
-@property (strong, nonatomic) NSArray *gongzuoArr;
+//教育经历
+@property (strong, nonatomic) NSArray *eduArray;
+//工作经历
+@property (strong, nonatomic) NSArray *workArray;
+
 
 
 @end

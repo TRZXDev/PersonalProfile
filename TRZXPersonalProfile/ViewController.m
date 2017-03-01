@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "TRZXPersonalProfileViewController.h"
 
 @interface ViewController ()
 
@@ -19,6 +20,10 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    TRZXPersonalProfileViewController *vc = [[TRZXPersonalProfileViewController alloc]init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

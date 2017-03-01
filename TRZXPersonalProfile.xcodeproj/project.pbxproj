@@ -15,6 +15,14 @@
 		76BFDF221E66B9350025CDD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76BFDF201E66B9350025CDD1 /* LaunchScreen.storyboard */; };
 		76BFDF2D1E66B9350025CDD1 /* TRZXPersonalProfileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BFDF2C1E66B9350025CDD1 /* TRZXPersonalProfileTests.m */; };
 		76BFDF381E66B9350025CDD1 /* TRZXPersonalProfileUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BFDF371E66B9350025CDD1 /* TRZXPersonalProfileUITests.m */; };
+		76BFDF481E66B9AF0025CDD1 /* TRZXPersonalProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BFDF471E66B9AF0025CDD1 /* TRZXPersonalProfileViewController.m */; };
+		76BFDF4B1E66BB510025CDD1 /* TRZXProfileUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BFDF4A1E66BB510025CDD1 /* TRZXProfileUserModel.m */; };
+		76BFDF551E66BC9E0025CDD1 /* TRZXPersonalProfileCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BFDF4D1E66BC9E0025CDD1 /* TRZXPersonalProfileCell.m */; };
+		76BFDF561E66BC9E0025CDD1 /* TRZXPersonalProfileCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76BFDF4E1E66BC9E0025CDD1 /* TRZXPersonalProfileCell.xib */; };
+		76BFDF571E66BC9E0025CDD1 /* TRZXPersonalExperCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BFDF501E66BC9E0025CDD1 /* TRZXPersonalExperCell.m */; };
+		76BFDF581E66BC9E0025CDD1 /* TRZXPersonalExperCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76BFDF511E66BC9E0025CDD1 /* TRZXPersonalExperCell.xib */; };
+		76BFDF591E66BC9E0025CDD1 /* TRZXPersonalWorkCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BFDF531E66BC9E0025CDD1 /* TRZXPersonalWorkCell.m */; };
+		76BFDF5A1E66BC9E0025CDD1 /* TRZXPersonalWorkCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76BFDF541E66BC9E0025CDD1 /* TRZXPersonalWorkCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,19 @@
 		76BFDF331E66B9350025CDD1 /* TRZXPersonalProfileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRZXPersonalProfileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76BFDF371E66B9350025CDD1 /* TRZXPersonalProfileUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRZXPersonalProfileUITests.m; sourceTree = "<group>"; };
 		76BFDF391E66B9350025CDD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76BFDF461E66B9AF0025CDD1 /* TRZXPersonalProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXPersonalProfileViewController.h; sourceTree = "<group>"; };
+		76BFDF471E66B9AF0025CDD1 /* TRZXPersonalProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXPersonalProfileViewController.m; sourceTree = "<group>"; };
+		76BFDF491E66BB510025CDD1 /* TRZXProfileUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXProfileUserModel.h; sourceTree = "<group>"; };
+		76BFDF4A1E66BB510025CDD1 /* TRZXProfileUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXProfileUserModel.m; sourceTree = "<group>"; };
+		76BFDF4C1E66BC9E0025CDD1 /* TRZXPersonalProfileCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXPersonalProfileCell.h; sourceTree = "<group>"; };
+		76BFDF4D1E66BC9E0025CDD1 /* TRZXPersonalProfileCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXPersonalProfileCell.m; sourceTree = "<group>"; };
+		76BFDF4E1E66BC9E0025CDD1 /* TRZXPersonalProfileCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRZXPersonalProfileCell.xib; sourceTree = "<group>"; };
+		76BFDF4F1E66BC9E0025CDD1 /* TRZXPersonalExperCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXPersonalExperCell.h; sourceTree = "<group>"; };
+		76BFDF501E66BC9E0025CDD1 /* TRZXPersonalExperCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXPersonalExperCell.m; sourceTree = "<group>"; };
+		76BFDF511E66BC9E0025CDD1 /* TRZXPersonalExperCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRZXPersonalExperCell.xib; sourceTree = "<group>"; };
+		76BFDF521E66BC9E0025CDD1 /* TRZXPersonalWorkCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXPersonalWorkCell.h; sourceTree = "<group>"; };
+		76BFDF531E66BC9E0025CDD1 /* TRZXPersonalWorkCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXPersonalWorkCell.m; sourceTree = "<group>"; };
+		76BFDF541E66BC9E0025CDD1 /* TRZXPersonalWorkCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRZXPersonalWorkCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +126,7 @@
 				76BFDF161E66B9350025CDD1 /* AppDelegate.m */,
 				76BFDF181E66B9350025CDD1 /* ViewController.h */,
 				76BFDF191E66B9350025CDD1 /* ViewController.m */,
+				76BFDF451E66B99B0025CDD1 /* TRZXPersonalProfile */,
 				76BFDF1B1E66B9350025CDD1 /* Main.storyboard */,
 				76BFDF1E1E66B9350025CDD1 /* Assets.xcassets */,
 				76BFDF201E66B9350025CDD1 /* LaunchScreen.storyboard */,
@@ -138,6 +160,26 @@
 				76BFDF391E66B9350025CDD1 /* Info.plist */,
 			);
 			path = TRZXPersonalProfileUITests;
+			sourceTree = "<group>";
+		};
+		76BFDF451E66B99B0025CDD1 /* TRZXPersonalProfile */ = {
+			isa = PBXGroup;
+			children = (
+				76BFDF461E66B9AF0025CDD1 /* TRZXPersonalProfileViewController.h */,
+				76BFDF471E66B9AF0025CDD1 /* TRZXPersonalProfileViewController.m */,
+				76BFDF491E66BB510025CDD1 /* TRZXProfileUserModel.h */,
+				76BFDF4A1E66BB510025CDD1 /* TRZXProfileUserModel.m */,
+				76BFDF4C1E66BC9E0025CDD1 /* TRZXPersonalProfileCell.h */,
+				76BFDF4D1E66BC9E0025CDD1 /* TRZXPersonalProfileCell.m */,
+				76BFDF4E1E66BC9E0025CDD1 /* TRZXPersonalProfileCell.xib */,
+				76BFDF4F1E66BC9E0025CDD1 /* TRZXPersonalExperCell.h */,
+				76BFDF501E66BC9E0025CDD1 /* TRZXPersonalExperCell.m */,
+				76BFDF511E66BC9E0025CDD1 /* TRZXPersonalExperCell.xib */,
+				76BFDF521E66BC9E0025CDD1 /* TRZXPersonalWorkCell.h */,
+				76BFDF531E66BC9E0025CDD1 /* TRZXPersonalWorkCell.m */,
+				76BFDF541E66BC9E0025CDD1 /* TRZXPersonalWorkCell.xib */,
+			);
+			path = TRZXPersonalProfile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,9 +288,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76BFDF561E66BC9E0025CDD1 /* TRZXPersonalProfileCell.xib in Resources */,
 				76BFDF221E66B9350025CDD1 /* LaunchScreen.storyboard in Resources */,
+				76BFDF581E66BC9E0025CDD1 /* TRZXPersonalExperCell.xib in Resources */,
 				76BFDF1F1E66B9350025CDD1 /* Assets.xcassets in Resources */,
 				76BFDF1D1E66B9350025CDD1 /* Main.storyboard in Resources */,
+				76BFDF5A1E66BC9E0025CDD1 /* TRZXPersonalWorkCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +319,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				76BFDF1A1E66B9350025CDD1 /* ViewController.m in Sources */,
+				76BFDF591E66BC9E0025CDD1 /* TRZXPersonalWorkCell.m in Sources */,
 				76BFDF171E66B9350025CDD1 /* AppDelegate.m in Sources */,
+				76BFDF481E66B9AF0025CDD1 /* TRZXPersonalProfileViewController.m in Sources */,
+				76BFDF4B1E66BB510025CDD1 /* TRZXProfileUserModel.m in Sources */,
+				76BFDF551E66BC9E0025CDD1 /* TRZXPersonalProfileCell.m in Sources */,
 				76BFDF141E66B9350025CDD1 /* main.m in Sources */,
+				76BFDF571E66BC9E0025CDD1 /* TRZXPersonalExperCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +557,7 @@
 				76BFDF3E1E66B9350025CDD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		76BFDF3F1E66B9350025CDD1 /* Build configuration list for PBXNativeTarget "TRZXPersonalProfileTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +566,7 @@
 				76BFDF411E66B9350025CDD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		76BFDF421E66B9350025CDD1 /* Build configuration list for PBXNativeTarget "TRZXPersonalProfileUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +575,7 @@
 				76BFDF441E66B9350025CDD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

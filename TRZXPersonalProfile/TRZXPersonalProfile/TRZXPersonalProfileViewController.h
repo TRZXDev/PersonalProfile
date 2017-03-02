@@ -11,7 +11,7 @@
 
 @interface TRZXPersonalProfileViewController : UIViewController
 
-//标题
+//预留
 @property (copy,   nonatomic) NSString *titleStr;
 //教育经历
 @property (strong, nonatomic) NSArray *eduArray;

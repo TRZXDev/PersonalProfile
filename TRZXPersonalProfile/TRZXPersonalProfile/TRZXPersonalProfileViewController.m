@@ -26,12 +26,22 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self addUI];
+}
+
+- (void)addUI{
     self.automaticallyAdjustsScrollViewInsets = NO;
-    self.title = _titleStr;
+    
+    if ([self.userType isEqualToString:@"TradingCenter"]) {//交易中心
+        self.title = @"交易中心的简介";
+    }else if ([self.userType isEqualToString:@"Gov"]) {//政府
+        self.title = @"政府的简介";
+    }else{
+        self.title = @"个人简介";
+    }
     [self.view addSubview:self.tableView];
     [self.tableView reloadData];
 }
-
 #pragma mark - tableViewDelegate
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView

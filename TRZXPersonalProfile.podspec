@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.version      = "0.0.1"
   s.summary      = "TRZXPersonalProfile 关于我"
 
-  s.homepage     = "https://github.com/TRZXDev/TTRZXPersonalProfile.git"
+  s.homepage     = "https://github.com/TRZXDev/PersonalProfile.git"
  
   s.license      = { :type => "MIT", :file => "LICENSE" }
 
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "9.0"
 
-  s.source       = { :git => "https://github.com/TRZXDev/TRZXPersonalProfile.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/TRZXDev/PersonalProfile.git", :tag => s.version.to_s }
 
   s.source_files = "TRZXPersonalProfile/TRZXPersonalProfile/*.{h,m}"
   s.resources    = "TRZXPersonalProfile/TRZXPersonalProfile/*.{xib,png}"  

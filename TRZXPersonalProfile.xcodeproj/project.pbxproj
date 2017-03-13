@@ -320,7 +320,13 @@
 				TargetAttributes = {
 					76BFDF0E1E66B9350025CDD1 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 487PQPPTGA;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
 					};
 					76BFDF271E66B9350025CDD1 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -690,6 +696,7 @@
 			baseConfigurationReference = 052B94D315172541A57101EF /* Pods-TRZXPersonalProfile.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 487PQPPTGA;
 				INFOPLIST_FILE = TRZXPersonalProfile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kipo.TRZXPersonalProfile;
@@ -702,6 +709,7 @@
 			baseConfigurationReference = EEC7C1B6EE3103ADA7034E37 /* Pods-TRZXPersonalProfile.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 487PQPPTGA;
 				INFOPLIST_FILE = TRZXPersonalProfile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kipo.TRZXPersonalProfile;

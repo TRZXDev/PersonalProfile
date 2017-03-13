@@ -32,7 +32,7 @@
 
 - (void)addUI{
     self.automaticallyAdjustsScrollViewInsets = NO;
-    
+    self.view.backgroundColor = [UIColor groupTableViewBackgroundColor];
     if ([self.userType isEqualToString:@"TradingCenter"]) {//交易中心
         self.title = @"交易中心的简介";
     }else if ([self.userType isEqualToString:@"Gov"]) {//政府
